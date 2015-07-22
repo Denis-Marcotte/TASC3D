@@ -1,0 +1,16 @@
+by
+Denis Marcotte,
+e-mail: denis.marcotte@polymtl.ca
+
+Description
+
+The program TASC3D checks the admissibility in 3D of multivariate models with symmetrical cross-covariances. Any number of variables and any number of components for each direct or cross covariance can be specified. Each component can be isotropic or present a geometric anisotropy. The program allows to let one or two parameters unknown. In this case, the user must provide a set of values for these parameters where the admissibility will be checked.
+
+More details on its usage are given in the paper and its Appendix.
+
+
+Content
+
+tasc3d.m: 	the main Matlab program with the required functions.
+
+example_tasc3d.m: 	a Matlab script showing how to use TASC3D. The program recreates the Figures 2 and 3 of the paper.
